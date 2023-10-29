@@ -7,7 +7,8 @@ interface FileUploaderProps {
   mediaUrl: string;
 }
 
-const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
+// const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
+const FileUploader = ({ fieldChange }: FileUploaderProps) => {
   const [fileUrl, setfileUrl] = useState<string>('');
   const [file, setFile] = useState<File[]>([]);
 

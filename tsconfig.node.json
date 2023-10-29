@@ -5,7 +5,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
-    "noUnusedLocals": false // remove this line if you want to use the `noUnusedLocals` option
+    "noUnusedLocals": true // remove this line if you want to use the `noUnusedLocals` option
   },
   "include": ["vite.config.ts"]
 }
